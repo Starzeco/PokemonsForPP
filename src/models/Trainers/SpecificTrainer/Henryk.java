@@ -19,7 +19,7 @@ public class Henryk extends LeaderOfGym {
     public Henryk(Set<Pokemon> set, String name, Type sala, int subChallenges) {
         this.pokemonSet=set;
         this.name=name;
-        this.age=18;
+        this.age=30;
         this.pokeBalls=new Stack<PokeBall>();
         this.sala=sala;
         this.subChallenges=subChallenges;
