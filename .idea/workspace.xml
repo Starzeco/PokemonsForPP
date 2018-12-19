@@ -1,41 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d929ced-6106-4a52-b15a-2416463b92c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labki.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Labki.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CatchingPokemon/CatchingPokemon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CatchingPokemon/CatchingPokemonAdventurer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CatchingPokemon/CatchingPokemonLeader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CatchingPokemon/CatchingPokemonPasiv.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exceptions/NotFoundPokemonException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TakingCare/CalmApproach.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TakingCare/NervousApproach.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TakingCare/TakingCare.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Throwing/EasyThrow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Throwing/LinearThrow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Throwing/SpinnedThrow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Throwing/ThrowingStyle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/PokeBalls/GreatBall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/PokeBalls/PokeBall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/PokeBalls/UltraBall.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Pokemon/Charizard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Pokemon/Pikachu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Pokemon/Pokemon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Trainers/Adventurer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Trainers/LeaderOfGym.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Trainers/PasivTrainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Trainers/SpecificTrainer/August.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Trainers/SpecificTrainer/Henryk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Trainers/SpecificTrainer/Stanisław.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Trainers/Trainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Types/Type.java" beforeDir="false" />
-    </list>
+    <list default="true" id="8d929ced-6106-4a52-b15a-2416463b92c8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/labki/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Launcher/Launcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="164" column="51" selection-start-line="164" selection-start-column="51" selection-end-line="164" selection-end-column="51" />
+            <state relative-caret-position="427">
+              <caret line="186" selection-start-line="186" selection-end-line="186" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3138#3147#0" expanded="true" />
@@ -213,7 +179,7 @@
     <property name="LombokPluginEnabledInProject" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545231643277" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545231880841" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -290,12 +256,12 @@
       <workItem from="1544814869492" duration="13000" />
       <workItem from="1544883700879" duration="1223000" />
       <workItem from="1545224762797" duration="49000" />
-      <workItem from="1545224859630" duration="6776000" />
+      <workItem from="1545224859630" duration="7067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27751000" />
+    <option name="totallyTimeSpent" value="28042000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -308,9 +274,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26627535" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26627535" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -327,7 +292,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32969433" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32969433" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -643,8 +608,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Launcher/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="164" column="51" selection-start-line="164" selection-start-column="51" selection-end-line="164" selection-end-column="51" />
+        <state relative-caret-position="427">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3138#3147#0" expanded="true" />
