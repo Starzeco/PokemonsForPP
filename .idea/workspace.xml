@@ -2,30 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d929ced-6106-4a52-b15a-2416463b92c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CatchingPokemon/Asking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CatchingPokemon/AskingImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CatchingPokemon/Questions/Asking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatchingPokemon/Asking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CatchingPokemon/AskingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatchingPokemon/Questions/AskingImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemonAdventurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemonAdventurer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemonLeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemonLeader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemonPasiv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemonPasiv.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Launcher/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Launcher/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Pokemon/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Pokemon/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Trainers/SpecificTrainer/August.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Trainers/SpecificTrainer/August.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Trainers/SpecificTrainer/Henryk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Trainers/SpecificTrainer/Henryk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Trainers/SpecificTrainer/Stanisław.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Trainers/SpecificTrainer/Stanisław.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Trainers/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Trainers/Trainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CatchingPokemon/Asking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CatchingPokemon/AskingImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/CatchingPokemon/CatchingPokemonAdventurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CatchingPokemon/CatchingPokemonAdventurer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/CatchingPokemon/CatchingPokemonLeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CatchingPokemon/CatchingPokemonLeader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/CatchingPokemon/CatchingPokemonPasiv.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CatchingPokemon/CatchingPokemonPasiv.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Launcher/Launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Launcher/Launcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Models/Pokemon/Pokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Models/Pokemon/Pokemon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Models/Trainers/SpecificTrainer/August.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Models/Trainers/SpecificTrainer/August.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Models/Trainers/SpecificTrainer/Henryk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Models/Trainers/SpecificTrainer/Henryk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Models/Trainers/SpecificTrainer/Stanisław.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Models/Trainers/SpecificTrainer/Stanisław.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Models/Trainers/Trainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Models/Trainers/Trainer.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/labki/target/" />
@@ -41,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Launcher/Launcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-113">
-              <caret line="188" column="30" selection-start-line="188" selection-start-column="30" selection-end-line="188" selection-end-column="30" />
+            <state relative-caret-position="-308">
+              <caret line="106" column="38" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemonAdventurer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="165">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Car.java" />
         <option value="$PROJECT_DIR$/src/models/Car.java" />
         <option value="$PROJECT_DIR$/src/models/Engine.java" />
         <option value="$PROJECT_DIR$/src/models/Pokemon.java" />
@@ -144,13 +133,15 @@
         <option value="$PROJECT_DIR$/src/main/java/Main/main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Models/Trainers/Trainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Models/Pokemon/Pokemon.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Launcher/Launcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemon.java" />
         <option value="$PROJECT_DIR$/src/main/java/CatchingPokemon/AskingImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/CatchingPokemon/Asking.java" />
         <option value="$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemonAdventurer.java" />
         <option value="$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemonLeader.java" />
         <option value="$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemonPasiv.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CatchingPokemon/Questions/AskingImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CatchingPokemon/Questions/Asking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Launcher/Launcher.java" />
       </list>
     </option>
   </component>
@@ -253,7 +244,7 @@
     <property name="LombokPluginEnabledInProject" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545296051735" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545296690232" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -332,12 +323,12 @@
       <workItem from="1545224762797" duration="49000" />
       <workItem from="1545224859630" duration="7326000" />
       <workItem from="1545256039492" duration="338000" />
-      <workItem from="1545292152255" duration="4061000" />
+      <workItem from="1545292152255" duration="4597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32700000" />
+    <option name="totallyTimeSpent" value="33236000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -350,9 +341,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27214515" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27214515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -361,7 +351,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32969433" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969433" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.6495633" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -369,7 +359,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.18340611" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18340611" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32969433" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -596,13 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Models/Trainers/Trainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
@@ -635,30 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CatchingPokemon/AskingImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CatchingPokemon/Asking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemonLeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemonPasiv.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -669,10 +628,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemonAdventurer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CatchingPokemon/Questions/Asking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CatchingPokemon/Questions/AskingImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main/main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemonLeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemonAdventurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -681,8 +671,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Launcher/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="188" column="30" selection-start-line="188" selection-start-column="30" selection-end-line="188" selection-end-column="30" />
+        <state relative-caret-position="-308">
+          <caret line="106" column="38" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

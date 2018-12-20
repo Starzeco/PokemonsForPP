@@ -1,5 +1,7 @@
 package CatchingPokemon;
 
+import CatchingPokemon.Questions.Asking;
+import CatchingPokemon.Questions.AskingImpl;
 import Throwing.SpinnedThrow;
 import Models.Pokemon.Pokemon;
 import Models.Trainers.Trainer;

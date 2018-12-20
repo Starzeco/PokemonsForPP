@@ -103,6 +103,8 @@ public class Launcher {
         Scanner reader=new Scanner(System.in);
         String nickname=reader.nextLine();
         System.out.println("Choose your type");
+        System.out.println("1.Fire");
+        System.out.println("2.Electric");
         boolean stop=false;
         while(!stop){
             String input=reader.nextLine();

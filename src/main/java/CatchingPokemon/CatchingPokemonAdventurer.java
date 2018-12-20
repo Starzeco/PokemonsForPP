@@ -1,11 +1,12 @@
 package CatchingPokemon;
 
+import CatchingPokemon.Questions.Asking;
+import CatchingPokemon.Questions.AskingImpl;
 import Throwing.LinearThrow;
 import Models.Pokemon.Pokemon;
 import Models.Trainers.Trainer;
 
 import java.util.Random;
-import java.util.Scanner;
 
 public class CatchingPokemonAdventurer implements CatchingPokemon {
     final public Asking asking=new AskingImpl();

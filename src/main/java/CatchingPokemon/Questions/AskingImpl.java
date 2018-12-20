@@ -1,4 +1,5 @@
-package CatchingPokemon;
+package CatchingPokemon.Questions;
+
 
 import java.util.Scanner;
 
