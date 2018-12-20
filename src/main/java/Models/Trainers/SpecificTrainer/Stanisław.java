@@ -64,7 +64,7 @@ public class Stanisław extends PasivTrainer {
             }
 
         }else{
-            throw new NotFoundPokemonException("Nie posiadasz takiego pokemona");
+            throw new NotFoundPokemonException("You don't have this pokemon");
         }
     }
 

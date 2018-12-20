@@ -7,25 +7,34 @@ import Models.Trainers.Trainer;
 import java.util.Random;
 
 public class CatchingPokemonPasiv implements CatchingPokemon {
+    final public Asking asking=new AskingImpl();
     @Override
     public void catchPokemon(Pokemon pokemon, Trainer trainer) {
-        if(pokemon.countHardness()<=20){
-            Random random=new Random();
-            if(trainer instanceof PasivTrainer){
-                trainer.getPokemonSet().add(pokemon);
-                System.out.println("Yeah złapałeś go");
-            }else{
-                int chance=random.nextInt(101);
-                if(chance>50){
+        if(!trainer.getPokeBalls().isEmpty()) {
+            if (pokemon.countHardness() <= 20) {
+                Random random = new Random();
+                if (trainer instanceof PasivTrainer) {
+                    System.out.println("Yeah, you've got him");
+                    pokemon.setName(asking.askForName());
                     trainer.getPokemonSet().add(pokemon);
-                    System.out.println("Yeah złapałeś go");
-                }else{
-                    System.out.println("Pokemon uciekł, może następnym razem");
-                }
-            }
 
+                } else {
+                    int chance = random.nextInt(101);
+                    if (chance > 50) {
+                        System.out.println("Yeah, you've got him");
+                        pokemon.setName(asking.askForName());
+                        trainer.getPokemonSet().add(pokemon);
+
+                    } else {
+                        System.out.println("Pokemon has escaped, try next time");
+                    }
+                }
+
+            } else {
+                System.out.println("You failed this time, try again later");
+            }
         }else{
-            System.out.println("Niestety pokemona nie udało się złapać");
+            System.out.println("You have no pokeballs");
         }
     }
 }

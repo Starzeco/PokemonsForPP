@@ -7,10 +7,11 @@ import Models.Trainers.Trainer;
 import java.util.Random;
 
 public class CatchingPokemonLeader implements CatchingPokemon {
-
+    final public Asking asking=new AskingImpl();
     @Override
     public void catchPokemon(Pokemon pokemon, Trainer trainer) {
         boolean caught=false;
+        int counter=1;
         while(!trainer.getPokeBalls().isEmpty() && !caught){
             Random random=new Random();
             int chance=random.nextInt(101)+trainer.getPokeBalls().pop().getEfficiency();
@@ -19,13 +20,20 @@ public class CatchingPokemonLeader implements CatchingPokemon {
             }
 
             if(chance>=pokemon.countHardness()){
+                System.out.println("Yeah, You've got him and you used "+counter+" pokeballs");
+                pokemon.setName(asking.askForName());
                 trainer.getPokemonSet().add(pokemon);
-                System.out.println("Yeah złapałeś go");
+
                 caught=true;
 
             }
+            counter+=1;
         }if(caught==false){
-            System.out.println("Nastepnym razem sie uda");
+            if(trainer.getPokeBalls().isEmpty()) {
+                System.out.println("Next time you'll be successful! But remember you've got no Pokeballs");
+            }else{
+                System.out.println("Next time you'll be successful!");
+            }
         }
 
     }

@@ -4,10 +4,11 @@ package Launcher;
 
 
 
+import Models.PokeBalls.PokeBall;
 import Models.Pokemon.Charizard;
 import Models.Pokemon.Pikachu;
 import Models.Pokemon.Pokemon;
-import Models.Trainers.Adventurer;
+
 import Models.Trainers.SpecificTrainer.August;
 import Models.Trainers.SpecificTrainer.Henryk;
 import Models.Trainers.SpecificTrainer.Stanisław;
@@ -16,16 +17,20 @@ import Models.Types.Type;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.HashSet;
+import java.util.Random;
 import java.util.Scanner;
 import java.util.Set;
 
 public class Launcher {
     Trainer trainer;
-
+    boolean launcherRun=true;
     public void run(){
         showCreateMenu();
-       // System.out.println(trainer.toString()); TODO delete this
-        showPlayMenu();
+
+        while(launcherRun){
+            showPlayMenu();
+        }
+
     }
     private void showCreateMenu() {
         System.out.println("Which trainer would you like to choose?");
@@ -160,9 +165,14 @@ public class Launcher {
         else return false;
     }
     private void showPlayMenu(){
+        System.out.println("-------------------");
         System.out.println("What you wanna do?");
         System.out.println("1.Find Pokemon");
-        System.out.println("Other not supported yet");
+        System.out.println("2.Show my pokemon list");
+        System.out.println("3.Buy pokeballs");
+        System.out.println("4.How many do I have pokeballs?");
+        System.out.println("Others are not supported yet");
+        System.out.println("99.Stop game");
         Scanner reader=new Scanner(System.in);
         boolean stop=false;
         String answear="";
@@ -178,12 +188,40 @@ public class Launcher {
             case 1:
                 findPokemon();
                 break;
+            case 2:
+                trainer.showPokemons();
+                break;
+            case 3:
+                trainer.getPokeBalls().add(new PokeBall());
+                break;
+            case 4:
+                System.out.println("You have "+trainer.getPokeBalls().size()+" pokeballs");
+                break;
+            case 99:
+                launcherRun=false;
+                break;
             default:
                 System.out.println("Not supported option");
         }
     }
 
     private void findPokemon(){
-
+        Random random=new Random();
+        int chance=random.nextInt(101);
+        if(chance>=50){
+            System.out.println("You've got luck, there is something!");
+            int pokChance=random.nextInt(2);
+            Pokemon pokToCatch;
+            if(pokChance==0){
+                int level=random.nextInt(101);
+                pokToCatch=new Pikachu("wild",level);
+            }else{
+                int level=random.nextInt(101);
+                pokToCatch=new Charizard("wild",level);
+            }
+            trainer.getCatchingPokemon().catchPokemon(pokToCatch,trainer);
+        }else{
+            System.out.println("There is nothing in this bush");
+        }
     }
 }

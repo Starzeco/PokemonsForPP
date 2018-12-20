@@ -5,11 +5,13 @@ import Exceptions.NotFoundPokemonException;
 import Throwing.ThrowingStyle;
 import Models.PokeBalls.PokeBall;
 import Models.Pokemon.Pokemon;
+import lombok.Getter;
 
 
 import java.util.Set;
 import java.util.Stack;
 
+@Getter
 abstract public class Trainer {
     protected Set<Pokemon> pokemonSet;
     protected String name;
@@ -48,8 +50,12 @@ abstract public class Trainer {
         this.pokeBalls = pokeBalls;
     }
 
-    public void showPokemons(){
-        pokemonSet.stream()
-                .forEach(pokemon -> System.out.println(pokemon));
+    public void showPokemons() {
+        if (!pokemonSet.isEmpty()) {
+            pokemonSet.stream()
+                    .forEach(pokemon -> System.out.println(pokemon));
+        }else{
+            System.out.println("You don't have pokemons");
+        }
     }
 }

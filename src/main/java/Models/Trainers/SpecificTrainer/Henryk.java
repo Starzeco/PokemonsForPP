@@ -83,7 +83,7 @@ public class Henryk extends LeaderOfGym {
                 foundPokemon.setLevel(foundPokemon.getLevel()+1);
             }
         }else{
-            throw new NotFoundPokemonException("Nie posiada on takiego pokemona");
+            throw new NotFoundPokemonException("You don't have this pokemon");
         }
 
     }
