@@ -39,7 +39,7 @@ public class Launcher {
 
     }
     private void showCreateMenu() {
-        showOptions2();
+        trainerChoice();
         Scanner reader = new Scanner(System.in);
         boolean stop=false;
         while (!stop) {
@@ -73,7 +73,7 @@ public class Launcher {
         }
     }
     private void showPlayMenu(){
-        showOptions();
+        playMenu();
         Scanner reader=new Scanner(System.in);
         boolean stop=false;
         String answear="";
@@ -105,7 +105,7 @@ public class Launcher {
                 System.out.println("Not supported option");
         }
     }
-    private void showOptions(){
+    private void playMenu(){
         System.out.println("-------------------");
         System.out.println("What you wanna do?");
         System.out.println("1.Find Pokemon");
@@ -115,7 +115,7 @@ public class Launcher {
         System.out.println("Others are not supported yet");
         System.out.println("99.Stop game");
     }
-    private void showOptions2(){
+    private void trainerChoice(){
         System.out.println("Which trainer would you like to choose?");
         System.out.println("1.Adventurer");
         System.out.println("2.Leader of Gym");

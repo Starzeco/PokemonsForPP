@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d929ced-6106-4a52-b15a-2416463b92c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Launcher/CreatingCharacter/CreateAdventurer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Launcher/CreatingCharacter/CreateCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Launcher/CreatingCharacter/CreateLeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Launcher/CreatingCharacter/CreatePasiv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/CatchingPokemon/Questions/Asking.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/CatchingPokemon/Questions/AskingImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Launcher/CreatingCharacter/CreateAdventurer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Launcher/CreatingCharacter/CreateCharacter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Launcher/CreatingCharacter/CreateLeader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Launcher/CreatingCharacter/CreatePasiv.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Launcher/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Launcher/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Pokemon/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Pokemon/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Trainers/SpecificTrainer/Henryk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Trainers/SpecificTrainer/Henryk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Models/Trainers/SpecificTrainer/Stanisław.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/Trainers/SpecificTrainer/Stanisław.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Launcher/Launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Launcher/Launcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Models/Pokemon/Pokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Models/Pokemon/Pokemon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Models/Trainers/SpecificTrainer/Henryk.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Models/Trainers/SpecificTrainer/Henryk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Models/Trainers/SpecificTrainer/Stanisław$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Models/Trainers/SpecificTrainer/Stanisław$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Models/Trainers/SpecificTrainer/Stanisław.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Models/Trainers/SpecificTrainer/Stanisław.class" afterDir="false" />
-    </list>
+    <list default="true" id="8d929ced-6106-4a52-b15a-2416463b92c8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/labki/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,23 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Launcher/Launcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="121" column="16" lean-forward="true" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemonPasiv.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="555">
+              <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -143,11 +107,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="102" />
-    <option name="y" value="676" />
-    <option name="width" value="1383" />
-    <option name="height" value="470" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="212" />
+    <option name="y" value="333" />
+    <option name="width" value="1363" />
+    <option name="height" value="468" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -210,6 +174,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Launcher" type="462c0819:PsiDirectoryNode" />
+              <item name="CreatingCharacter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Labki" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Labki" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -228,16 +201,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Models" type="462c0819:PsiDirectoryNode" />
               <item name="Trainers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Labki" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Labki" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-              <item name="Trainers" type="462c0819:PsiDirectoryNode" />
-              <item name="SpecificTrainer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Labki" type="b2602c69:ProjectViewProjectNode" />
@@ -267,7 +230,7 @@
     <property name="LombokPluginEnabledInProject" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547738820843" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547739120959" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -352,12 +315,12 @@
       <workItem from="1545322771516" duration="599000" />
       <workItem from="1545487870658" duration="51000" />
       <workItem from="1546969988065" duration="16000" />
-      <workItem from="1547735007556" duration="3761000" />
+      <workItem from="1547735007556" duration="4112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39762000" />
+    <option name="totallyTimeSpent" value="40113000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,8 +333,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29082176" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29082176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -388,7 +352,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18340611" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18340611" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32969433" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -676,16 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Launcher/CreatingCharacter/CreateAdventurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Launcher/CreatingCharacter/CreateLeader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -723,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Launcher/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="121" column="16" lean-forward="true" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CatchingPokemon/CatchingPokemonPasiv.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -737,6 +684,23 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Launcher/CreatingCharacter/CreateAdventurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Launcher/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
         </state>
       </provider>
     </entry>
