@@ -39,10 +39,7 @@ public class Launcher {
 
     }
     private void showCreateMenu() {
-        System.out.println("Which trainer would you like to choose?");
-        System.out.println("1.Adventurer");
-        System.out.println("2.Leader of Gym");
-        System.out.println("3.Pasiv Trainer");
+        showOptions2();
         Scanner reader = new Scanner(System.in);
         boolean stop=false;
         while (!stop) {
@@ -117,6 +114,12 @@ public class Launcher {
         System.out.println("4.How many do I have pokeballs?");
         System.out.println("Others are not supported yet");
         System.out.println("99.Stop game");
+    }
+    private void showOptions2(){
+        System.out.println("Which trainer would you like to choose?");
+        System.out.println("1.Adventurer");
+        System.out.println("2.Leader of Gym");
+        System.out.println("3.Pasiv Trainer");
     }
 
     private void findPokemon(){
