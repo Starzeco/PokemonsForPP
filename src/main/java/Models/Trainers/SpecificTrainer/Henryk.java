@@ -17,7 +17,9 @@ import java.util.*;
 @ToString
 public class Henryk extends LeaderOfGym {
 
+    public Henryk(){
 
+    }
     public Henryk(Set<Pokemon> set, String name, Type sala) {
         this.pokemonSet=set;
         this.name=name;

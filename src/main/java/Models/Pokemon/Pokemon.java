@@ -52,7 +52,7 @@ abstract public class Pokemon {
 
     @Override
     public String toString() {
-        return getClass().getCanonicalName()+"{" +
+        return getClass().getSimpleName()+"{" +
                 "type=" + type +
                 ", name='" + name + '\'' +
                 ", level=" + level +

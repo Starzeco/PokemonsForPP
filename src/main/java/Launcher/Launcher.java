@@ -4,6 +4,10 @@ package Launcher;
 
 
 
+import Launcher.CreatingCharacter.CreateAdventurer;
+import Launcher.CreatingCharacter.CreateCharacter;
+import Launcher.CreatingCharacter.CreateLeader;
+import Launcher.CreatingCharacter.CreatePasiv;
 import Models.PokeBalls.PokeBall;
 import Models.Pokemon.Charizard;
 import Models.Pokemon.Pikachu;
@@ -22,8 +26,10 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class Launcher {
-    Trainer trainer;
-    boolean launcherRun=true;
+    private Trainer trainer;
+    private boolean launcherRun=true;
+    private CreateCharacter createCharacter;
+
     public void run(){
         showCreateMenu();
 
@@ -45,15 +51,18 @@ public class Launcher {
 
                 switch (Integer.parseInt(input)) {
                     case 1:
-                        createAdventure();
+                        createCharacter=new CreateAdventurer();
+                        trainer=createCharacter.createCharacter();
                         stop=true;
                         break;
                     case 2:
-                        createLeader();
+                        createCharacter=new CreateLeader();
+                        trainer=createCharacter.createCharacter();
                         stop=true;
                         break;
                     case 3:
-                        createPasiv();
+                        createCharacter=new CreatePasiv();
+                        trainer=createCharacter.createCharacter();
                         stop=true;
                         break;
                     default:
@@ -65,116 +74,9 @@ public class Launcher {
             }
 
         }
-    }
-
-
-
-    private void createAdventure(){
-        System.out.println("Write your nickname");
-        Scanner reader=new Scanner(System.in);
-        String nickname=reader.nextLine();
-        System.out.println("Choose your backpack");
-        System.out.println("1.Large (10kg)");
-        System.out.println("2.Slight (5kg)");
-
-        boolean stop=false;
-        while(!stop){
-            String input=reader.nextLine();
-            if(StringUtils.isNumeric(input)){
-                switch (Integer.parseInt(input)) {
-                    case 1:
-                        trainer=new August(nickname,10);
-                        stop=true;
-                        break;
-                    case 2:
-                        trainer=new August(nickname,5);
-                        stop=true;
-                        break;
-                    default:
-                        System.out.println("Wrong number, try again");
-                }
-            }else{
-                System.out.println("Wrong number, try again");
-            }
-        }
-    }
-    private void createLeader(){
-        System.out.println("Write your nickname");
-        Scanner reader=new Scanner(System.in);
-        String nickname=reader.nextLine();
-        System.out.println("Choose your type");
-        System.out.println("1.Fire");
-        System.out.println("2.Electric");
-        boolean stop=false;
-        while(!stop){
-            String input=reader.nextLine();
-            if(StringUtils.isNumeric(input)){
-                switch (Integer.parseInt(input)) {
-                    case 1:
-                        Set<Pokemon> tmp=new HashSet<Pokemon>();
-                        tmp.add(new Charizard("default",10));
-                        trainer=new Henryk(tmp,nickname, Type.OGNISTY);
-                        stop=true;
-                        break;
-                    case 2:
-                        Set<Pokemon> tmp2=new HashSet<Pokemon>();
-                        tmp2.add(new Pikachu("default",10));
-                        trainer=new Henryk(tmp2,nickname, Type.ELEKTRYCZNY);
-                        stop=true;
-                        break;
-                    default:
-                        System.out.println("Wrong number, try again");
-                }
-            }else{
-                System.out.println("Wrong number, try again");
-            }
-        }
-
-    }
-    private void createPasiv(){
-        System.out.println("Write your nickname");
-        Scanner reader=new Scanner(System.in);
-        String nickname=reader.nextLine();
-        System.out.println("Is he/she working? Y-yes/N-no");
-
-        boolean isWorking=booleanQuestion();
-
-        System.out.println("Does he/she work at home? Y-yes/N-no");
-
-        boolean staysInHome=booleanQuestion();
-
-        System.out.println("Where do you live?");
-        String place=reader.nextLine();
-        System.out.println("How big is your home?");
-        boolean stop=false;
-        String size="";
-        while(!stop){
-            size=reader.nextLine();
-            if(StringUtils.isNumeric(size)){
-                stop=true;
-            }
-            else{
-                System.out.println("Enter number please");
-            }
-        }
-        trainer=new Stanisław(nickname,isWorking,staysInHome,place,Integer.parseInt(size));
-
-    }
-
-    private boolean booleanQuestion(){
-        Scanner reader=new Scanner(System.in);
-        if(reader.nextLine()=="Y") return true;
-        else return false;
     }
     private void showPlayMenu(){
-        System.out.println("-------------------");
-        System.out.println("What you wanna do?");
-        System.out.println("1.Find Pokemon");
-        System.out.println("2.Show my pokemon list");
-        System.out.println("3.Buy pokeballs");
-        System.out.println("4.How many do I have pokeballs?");
-        System.out.println("Others are not supported yet");
-        System.out.println("99.Stop game");
+        showOptions();
         Scanner reader=new Scanner(System.in);
         boolean stop=false;
         String answear="";
@@ -205,6 +107,16 @@ public class Launcher {
             default:
                 System.out.println("Not supported option");
         }
+    }
+    private void showOptions(){
+        System.out.println("-------------------");
+        System.out.println("What you wanna do?");
+        System.out.println("1.Find Pokemon");
+        System.out.println("2.Show my pokemon list");
+        System.out.println("3.Buy pokeballs");
+        System.out.println("4.How many do I have pokeballs?");
+        System.out.println("Others are not supported yet");
+        System.out.println("99.Stop game");
     }
 
     private void findPokemon(){

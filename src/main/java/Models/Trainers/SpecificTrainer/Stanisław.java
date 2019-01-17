@@ -16,6 +16,10 @@ import java.util.Stack;
 @ToString
 public class Stanisław extends PasivTrainer {
 
+    public Stanisław(){
+
+    }
+
     public Stanisław( String name, boolean isWorking, boolean staysInHome, String place, int sizeOfField){
 
         this.name=name;
